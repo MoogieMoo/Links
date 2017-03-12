@@ -15,7 +15,7 @@ public class LLNode
 	_cargo = value;
 	_nextNode = next;
 
-	LLNode nunu = null;
+	//LLNode nunu = null;
     }
 
 
@@ -47,7 +47,6 @@ public class LLNode
     public static void main( String[] args ) 
     {
 
-	/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
 	//Below is an exercise in creating a linked list...
 
 	//Create a node
@@ -58,6 +57,7 @@ public class LLNode
 
 	//Create a third node after the second
 	first.getNext().setNext( new LLNode( "cow", null ) );
+	/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 	/* A naive list traversal:
