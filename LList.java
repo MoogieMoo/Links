@@ -4,22 +4,36 @@
  * Implements a linked list of LLNodes.
  *****************************************************/
 
-public class LList implements List 
-{ //your homemade List.java must be in same dir
+public class LList implements List { //your homemade List.java must be in same dir
 
     //instance vars
     private LLNode _head;
     private int _size;
 
     // constructor -- initializes instance vars
-    public LList( ) 
-    {
-
+    public LList( ) {
+	_head = null;
+	_size = 0;
     }
 
 
     //--------------v  List interface methods  v--------------
-
+    public boolean add( String x ) {
+    	_head = new LLNode ( x, _head );
+	return true;
+    }
+	
+    public String get( int i ) {
+	if ( i > size() || i < 0 ) {
+		return "Nonexistent";
+	}
+	else if ( i = 0 ) {
+		return _head._cargo;
+	}
+	    
+	
+    public String set( int i, String x ); 
+    public int size();
     /* YOUR IMPLEMENTATIONS HERE */
 
     //return number of nodes in list
