@@ -7,11 +7,12 @@
 
 public interface List { 
 
-    public boolean add( String x ); 
+    public boolean add( Object x ); 
 
     public String get( int i ); 
 
-    public String set( int i, String x ); 
+    public String set( int i, Object x ); 
 
-    public int size(); 
+    public int size();
+    
 }
